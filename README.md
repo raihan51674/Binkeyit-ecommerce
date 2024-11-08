@@ -1,8 +1,10 @@
 # $${\color{red}React}$$
-## $${\color{blue} }$$
+## $${\color{blue} 
+  open vs code create file name server }$$
+## open terminal :1. cd server   2.npm init -y, 3. npm install express cors mongoose jsonwebtoken bcryptjs cookie-parser dotenv morgan helmet
 
-## open vs code create file name server
-### open terminal :1. cd server   2.npm init -y, 3. npm install express cors mongoose jsonwebtoken bcryptjs cookie-parser dotenv morgan helmet
+
+
 
 1. open package-json : "type" :"module",
 
@@ -114,7 +116,7 @@ app.get("/",(req, res)=>{
     })
 })
 #  ConnectDB()
-## $${\color{blue} ConnectDB()}$$
+
 
 app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
