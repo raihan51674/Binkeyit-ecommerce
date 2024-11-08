@@ -5,7 +5,7 @@
 
 ## 2. type this index.js file:
 
-"
+```
   import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
@@ -32,9 +32,7 @@ app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
 })
 
-
-
-"
+```
 # run server :  node index.js
 ## 2.terminal : npm i nodemon
 
