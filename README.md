@@ -4,7 +4,8 @@
 1. open package-json : "type" :"module",
 
 ## 2. type this index.js file:
-                          import express from 'express'
+{
+ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 dotenv.config()
@@ -33,6 +34,7 @@ app.listen(PORT,()=>{
 
 
 
+}
 # run server :  node index.js
 ## 2.terminal : npm i nodemon
 
