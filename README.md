@@ -1,3 +1,6 @@
+# $${\color{red}React}$$
+## $${\color{blue} }$$
+
 ## open vs code create file name server
 ### open terminal :1. cd server   2.npm init -y, 3. npm install express cors mongoose jsonwebtoken bcryptjs cookie-parser dotenv morgan helmet
 
@@ -5,6 +8,7 @@
 
 ## 2. type this index.js file:
 
+## $${\color{blue} 
 ```
   import express from 'express'
 import cors from 'cors'
@@ -33,6 +37,9 @@ app.listen(PORT,()=>{
 })
 
 ```
+}$$
+
+
 # run server :  node index.js
 ## 2.terminal : npm i nodemon
 
