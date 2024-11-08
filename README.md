@@ -114,6 +114,7 @@ app.get("/",(req, res)=>{
     })
 })
 #  ConnectDB()
+## $${\color{blue} ConnectDB()}$$
 
 app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
