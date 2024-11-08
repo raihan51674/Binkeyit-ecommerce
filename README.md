@@ -1,6 +1,5 @@
 # $${\color{red}React}$$
-## $${\color{blue} 
-  open vs code create file name server }$$
+## $${\color{blue} open vs code create file name server}$$
 ## open terminal :1. cd server   2.npm init -y, 3. npm install express cors mongoose jsonwebtoken bcryptjs cookie-parser dotenv morgan helmet
 
 
@@ -93,7 +92,7 @@ dotenv.config()
 import cookieParser from 'cookie-parser'
 import morgan from 'morgan'
 import helmet from 'helmet'
-# import ConnectDB from './Config/ConnectDB.js'
+# import ConnectDB from './Config/ConnectDB.js'     //update
 
 const app  = express()
 app.use(cors({
@@ -115,7 +114,7 @@ app.get("/",(req, res)=>{
         message: "Server is running" + PORT
     })
 })
-#  ConnectDB()
+ConnectDB()   //update
 
 
 app.listen(PORT,()=>{
