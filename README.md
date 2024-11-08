@@ -9,8 +9,7 @@
 ## 2. type this index.js file:
 
 ## $${\color{blue} 
-```
-  import express from 'express'
+import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 dotenv.config()
@@ -35,8 +34,6 @@ const PORT =8080 || process.env.PORT
 app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
 })
-
-```
 }$$
 
 
