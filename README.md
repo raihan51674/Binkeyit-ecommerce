@@ -8,7 +8,7 @@
 
 ## 2. type this index.js file:
 
-## $${\color{blue} 
+```
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
@@ -34,7 +34,7 @@ const PORT =8080 || process.env.PORT
 app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
 })
-}$$
+```
 
 
 # run server :  node index.js
@@ -48,6 +48,7 @@ app.listen(PORT,()=>{
 
 # open mongodb database create and connection 
 ## vs code config/ConnectDB.js
+```
 import mongoose from "mongoose";
 import dotenv from 'dotenv'
 dotenv.config()
@@ -73,13 +74,16 @@ async function ConnectDB() {
 
 export default ConnectDB;
 
+```
+
 ### and create .env file 
 
-
+```
  FRONTEND_URL=
  MONODB_URL = mongodb+srv://mdraihan51674:iVQJvw0qWqna0iXj@binkeyit.e3qis.mongodb.net/?retryWrites=true&w=majority&appName=Binkeyit
-
+```
 # Update index.js file 
+```
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
@@ -115,7 +119,7 @@ app.listen(PORT,()=>{
     console.log(`Server is running`, PORT )
 })
 
-
+```
 
 
 
